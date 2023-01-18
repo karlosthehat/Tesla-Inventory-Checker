@@ -24,7 +24,7 @@ INSTRUCTIONS FOR USE
 
 5.) REMOVE "#" FROM CODE TO ENABLE PUSH NOTIFICATIONS
 
-6.) FROM A TERMINAL RUN python3 /dir_where_your_file_lives/filename.py OR FROM SSH "DISPLAY=:0 python3 /dir_where_your_file_lives/filename.py"
+6.) FROM A TERMINAL/SSH RUN python3 /dir_where_your_file_lives/filename.py
 
 
 NOTES:
