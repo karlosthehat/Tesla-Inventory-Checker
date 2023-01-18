@@ -8,6 +8,7 @@ import sys
 import http.client, urllib
 options = webdriver.ChromeOptions()
 options.add_argument('--disable-blink-features=AutomationControlled')
+options.headless = True
 driver = webdriver.Chrome(options=options)
 link = "https://www.tesla.com/en_AU/inventory/new/my?FleetSalesRegions=QLD%20-%20Gold%20Coast&arrangeby=relevance&zip=2000&range=0"
 value = 600 #time in seconds to check for inventory. I recommend 600 to avoid spamming the server
