@@ -6,7 +6,7 @@ STEP 2: Once you are up and running, install the necessary packages by entering 
       sudo apt-get upgrade -y
       sudo apt-get install chromium-chromedriver python3-pip xserver-xephyr -y
       sudo apt install python3 pip
-      sudo pip install selenium
+      sudo pip3 install selenium
 
 
 INSTRUCTIONS FOR USE
