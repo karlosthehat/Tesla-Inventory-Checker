@@ -1,3 +1,7 @@
+UPDATE: I have made some minor changes to the setup and code, can now verify it does indeed run fine headless on a raspberry pi 1 and above.
+-------------------------------
+
+
 STEP 1: If you haven’t already, go to https://www.raspberrypi.com/software/operating-systems/ and download “Raspberry Pi OS”. Flash this to your SD card and setup as necessary. It isn't necessary to have the desktop version as we aren't logging into your Tesla account.
 
 STEP 2: Once you are up and running, install the necessary packages by entering the following commands:
