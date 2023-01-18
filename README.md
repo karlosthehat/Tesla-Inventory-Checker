@@ -2,10 +2,11 @@ STEP 1: If you haven’t already, go to https://www.raspberrypi.com/software/ope
 
 STEP 2: Once you are up and running, install the necessary packages by entering the following commands:
 
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install chromium-chromedriver python3-pip xserver-xephyr -y
-sudo pip install selenium
+      sudo apt-get update
+      sudo apt-get upgrade -y
+      sudo apt-get install chromium-chromedriver python3-pip xserver-xephyr -y
+      sudo apt install python3 pip
+      sudo pip install selenium
 
 
 INSTRUCTIONS FOR USE
