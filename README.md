@@ -1,4 +1,12 @@
-BEFORE RUNNING THIS, PLEASE GO TO https://github.com/karlosthehat/Tesla-VIN-checker AND FOLLOW STEPS 1 AND 2 (READ NOTES BELOW), THEN COME BACK HERE:
+STEP 1: If you haven’t already, go to https://www.raspberrypi.com/software/operating-systems/ and download “Raspberry Pi OS”. Flash this to your SD card and setup as necessary. It isn't necessary to have the desktop version as we aren't logging into your Tesla account.
+
+STEP 2: Once you are up and running, install the necessary packages by entering the following commands:
+
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install chromium-chromedriver python3-pip xserver-xephyr -y
+sudo pip install selenium
+
 
 INSTRUCTIONS FOR USE
 
@@ -12,11 +20,10 @@ INSTRUCTIONS FOR USE
 
 5.) REMOVE "#" FROM CODE TO ENABLE PUSH NOTIFICATIONS
 
-6.) RUN CODE AND ENJOY :)
+6.) FROM A TERMINAL RUN python3 /dir_where_your_file_lives/filename.py OR FROM SSH "DISPLAY=:0 python3 /dir_where_your_file_lives/filename.py"
+
 
 NOTES:
-
-*YOU HAVE TO GO TO THE LINK ABOVE FIRST AND INSTALL THE PACKAGES OR THIS WON'T WORK. THIS ONE CAN BE RUN HEADLESS, SO YOU DON'T NEED A DESKTOP VERSION.
 
 *THIS IS A VERY DUMB SCRIPT THAT SIMPLY CHECKS IF ANY RESULTS ARE RETURNED AND THEN SENDS YOU A NOTIFICATION, THEREFORE IT IS IMPORTANT TO CONFIGURE YOUR SEARCH PARAMETERS TO EXACTLY WHAT YOU ARE LOOKING FOR.
 
